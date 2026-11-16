@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<radialGradient id="bg" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#d9ece7"/></radialGradient>
+<pattern id="layers" width="8" height="4" patternUnits="userSpaceOnUse"><rect width="8" height="1.2" fill="#000" opacity=".16"/></pattern>
+<g id="f"><rect x="150" y="105" width="100" height="80" rx="14"/><rect x="195" y="70" width="10" height="35"/><circle cx="200" cy="66" r="10"/><rect x="140" y="195" width="120" height="95" rx="12"/><rect x="100" y="205" width="30" height="70" rx="12"/><rect x="270" y="205" width="30" height="70" rx="12"/><rect x="155" y="290" width="35" height="25" rx="5"/><rect x="210" y="290" width="35" height="25" rx="5"/></g>
+<mask id="m"><use href="#f" fill="#fff"/></mask>
+</defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<ellipse cx="205" cy="338" rx="125" ry="20" fill="#000" opacity=".12"/>
+<rect x="95" y="308" width="210" height="26" rx="13" fill="#2a3642"/>
+<use href="#f" fill="#3d8a7a"/>
+<rect width="400" height="400" fill="url(#layers)" mask="url(#m)"/>
+<use href="#f" fill="none" stroke="#000" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="178" cy="145" r="10" fill="#1d2a35"/><circle cx="222" cy="145" r="10" fill="#1d2a35"/><rect x="165" y="225" width="70" height="10" rx="5" fill="#1d2a35"/>
+</svg>

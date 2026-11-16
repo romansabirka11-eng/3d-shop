@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Слой — 3D-фигурки</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#">Слой</a>
+  <nav><a href="#catalog">Каталог</a><button class="nav-btn" id="open-cart">Корзина (<span id="count">0</span>)</button></nav>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <h1>Фигурки, напечатанные слой за слоем</h1>
+      <p>Дракон, рыцарь, робот и другие. Каждую печатаем и дорабатываем вручную.</p>
+      <a class="btn" href="#catalog">Выбрать фигурку</a>
+    </div>
+    <img src="img/drakon.svg" alt="Фигурка дракона на подставке">
+  </section>
+  <section id="catalog" class="grid"></section>
+</main>
+<footer>Фигурки печатаем на заказ в течение 3–5 дней. Доставка по Хорватии и ЕС.</footer>
+
+<dialog id="product-dlg"><button class="close" aria-label="Закрыть">×</button><div id="product-body"></div></dialog>
+<dialog id="cart-dlg"><button class="close" aria-label="Закрыть">×</button><div id="cart-body"></div></dialog>
+<script src="app.js"></script>
+</body>
+</html>
